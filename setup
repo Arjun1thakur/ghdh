@@ -1,0 +1,132 @@
+ {
+  "editor.fontFamily": "Cartograph CF",
+  // "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
+  "files.autoSave": "afterDelay",
+  "editor.suggest.showStatusBar": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.wrapTabs": true,
+  "window.restoreFullscreen": true,
+  "prettier.bracketSameLine": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 1,
+  "terminal.integrated.letterSpacing": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "black",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "blue",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "[t]": {
+      "icon": "check",
+      "foreground": "black",
+      "background": "white",
+      "iconColour": "white"
+    },
+    "[NOTE]": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "gray",
+      "iconColour": "gray"
+    },
+    "[COMMENT]": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "gray",
+      "iconColour": "gray"
+    },
+    "[FIXME]": {
+      "icon": "check",
+      "foreground": "black",
+      "background": "red",
+      "iconColour": "red"
+    },
+    "[BUG]": {
+      "foreground": "black",
+      "background": "red",
+      "iconColour": "red"
+    },
+    "[ ]": {
+      "icon": "check",
+      "foreground": "black",
+      "background": "yellow",
+      "iconColour": "yellow"
+    },
+    "[x]": {
+      "icon": "check",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "NOTE",
+    "COMMENT",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "editor.fontWeight": "400",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.fontFamily": "Cascadia Code,monospace,cursive",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [""],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "Notes.notesLocation": "d:\\trail\\Notes",
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "git.openRepositoryInParentFolders": "never",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": true
+  },
+  "emulator.emulatorPathWindows": "C:\\Users\\Rajesh\\AppData\\Local\\Android\\Sdk\\emulator",
+  "editor.formatOnSave": true,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewHotReloadOnSaveWatcher": true,
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "editor.fontSize": 15,
+  "editor.minimap.size": "fit",
+  "editor.minimap.showSlider": "always"
+}
